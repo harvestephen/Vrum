@@ -22,3 +22,8 @@ BreakPoints
 *iPhone* – 375 x 812
 *Laptop* – 1366 x 768
 *Desktop or high-resolution laptop* – 1920 x 1080
+
+Technologies
+- Web3
+- MySQL
+- 
