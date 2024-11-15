@@ -1,15 +1,14 @@
-# Broom-
+# Vrum
 A car rental Website.
 
 Features:
 1. user and admin account
 2. account priveleges 
-3. chat feature
+3. User agreement
 4. user review and feedback
 5. color options
 6. view and checkout page
 7. paperless payment, (downpayment options or full payment)
-8. agreement
 
 Color scheme:
 primary: #022B3A
@@ -26,4 +25,3 @@ BreakPoints
 Technologies
 - Web3
 - MySQL
-- 
