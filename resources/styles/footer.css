@@ -41,7 +41,7 @@ footer {
 
 .footer-links a:hover {
     text-decoration: underline;
-    color:#fff;
+    color:#1F7A8C;
 }
 
 .footer-bottom {
@@ -73,7 +73,7 @@ footer {
 }
 
 .hover-svg:hover path {
-    fill: #ffffff; /* Change color to Instagram pinkish-red on hover */
+    fill: #1F7A8C; /* Change color to Instagram pinkish-red on hover */
 }
 
 .footer-socials a {
