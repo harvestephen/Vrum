@@ -1,0 +1,171 @@
+@font-face {
+    font-family: Kalam-Regular;
+    src:url('../fonts/Kalam/Kalam-Regular.ttf')format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: Abel-Regular;
+    src:url('../fonts/Abel/Abel-Regular.ttf')format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: Inter_18pt-Regular;
+    src:url('../fonts/Inter/Inter_18pt-Regular.ttf')format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: Inter_28pt-Bold;
+    src:url('../fonts/Inter/Inter_28pt-Bold.ttf')format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+ }
+
+.navBar {
+    background-color: #022B3A;
+    height: 100%;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+.navContent {
+    display: flex;
+}
+div.pageTitle {
+    padding-left: 85px;
+    padding-right: 10px;
+}
+p.pageTitle {
+    font-size: 64px;
+    font-family: Kalam-Regular;
+    color: #cfb284;
+}
+div.pageNav {
+    justify-content: space-between;
+    width: 100%;
+}
+div.navOption {
+    align-items: center;
+}
+ul.navOption {
+    list-style-type: none;
+}
+li.navOption {
+    display: inline-flex;
+    align-items: center;
+}
+div.accountSection {
+    align-items: center;
+}
+
+button.navSelection{
+    height: 102px;
+    padding: 20px;
+    background-color: transparent;
+    border: none;
+    font-size: 32px;
+    font-family: Abel-Regular;
+    color: #d3d3d3;
+}
+button.navSelection:hover {
+    background-color: #1F7A8C;
+}
+.modal {
+    display: none; /* Hidden by default */
+    z-index: 1; /* Sit on top */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+.modalContent {
+    position: relative;
+    background-color: #d3d3d3;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    width: 620px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+.modalHeader {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: Inter_28pt-Bold;
+    font-size: 45px;
+    color: #022B3A;
+}
+.modalForm{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.formLabel {
+    font-family: Inter_18pt-Regular;
+    font-size: 32px;
+    color: #022B3A;
+}
+.formInput{
+    width: 100%;
+    display: inline-block;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid #022B3A;
+    border-radius: 15px;
+}
+div.formSubmit{
+    padding-top: 20px;
+    align-items: center;
+}
+button.formSubmit{
+    background-color: #cfb284;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: Inter_28pt-Bold;
+    font-size: 24px;
+}
+p.formSubmit{
+    padding: 10px;
+    font-family: Inter_18pt-Regular;
+    font-size: 20px;
+    color: #333333;
+}
+a.formSubmit{
+    font-family: Inter_18pt-Regular;
+    font-size: 20px;
+    color: #333333;
+}
+
+
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+  
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
