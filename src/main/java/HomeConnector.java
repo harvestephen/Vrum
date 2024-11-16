@@ -28,7 +28,6 @@ public class HomeConnector extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		System.out.println("GET METHOD CALLED");
 		 RequestDispatcher dispatcher = request.getRequestDispatcher("home.jsp");
 	     dispatcher.forward(request, response);
 	}
