@@ -3,12 +3,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/main.css">
-<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/footer.css">
-<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/content.css">
-<title>Vrum - Home</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/main.css">
+	<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/footer.css">
+	<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/content.css">
+	<title>Vrum - Home</title>
 </head>
 <body>
 
@@ -49,14 +49,14 @@
 				<h2 class="modalHeader">Sign In</h2>
 			</div>
 			<div>
-				<form class="modalForm">
+				<form class="modalForm" method="POST">
 					<div>
-						<label class="formLabel">Username</label> <input class="formInput"
-							type="text">
+						<label class="formLabel" for="username">Username</label> 
+						<input class="formInput" type="text" name="username">
 					</div>
 					<div>
-						<label class="formLabel">Password</label> <input class="formInput"
-							type="text">
+						<label class="formLabel" for="password">Password</label> 
+						<input class="formInput" type="text" name="password">
 					</div>
 					<div class="formSubmit" style="display: inline-flex;">
 						<button class="formSubmit">Sign In</button>
@@ -76,26 +76,26 @@
 				<h2 class="modalHeader">Register</h2>
 			</div>
 			<div>
-				<form class="modalForm">
+				<form class="modalForm" method="POST">
 					<div>
-						<label class="formLabel">Username</label> <input class="formInput"
-							type="text">
+						<label class="formLabel" for="username">Username</label> 
+						<input class="formInput" type="text" name="username">
 					</div>
 					<div>
-						<label class="formLabel">Email</label> <input class="formInput"
-							type="text">
+						<label class="formLabel" for="email">Email</label> 
+						<input class="formInput" type="text" name="email">
 					</div>
 					<div>
-						<label class="formLabel">Contact No.</label> <input
-							class="formInput" type="text">
+						<label class="formLabel" for="contact-number">Contact No.</label> 
+						<input class="formInput" type="text" name="contact-number">
 					</div>
 					<div>
-						<label class="formLabel">Password</label> <input class="formInput"
-							type="text">
+						<label class="formLabel" for="password">Password</label> 
+						<input class="formInput" type="text" name="password">
 					</div>
 					<div>
-						<label class="formLabel">Confirm Pasword</label> <input
-							class="formInput" type="text">
+						<label class="formLabel" for="confirm-password">Confirm Pasword</label> 
+						<input class="formInput" type="text" name="confirm-password">
 					</div>
 					<div class="formSubmit">
 						<div style="display: flex; justify-content: center;">
