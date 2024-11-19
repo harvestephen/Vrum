@@ -82,7 +82,7 @@ button.navSelection:hover {
 .modal {
     display: none; /* Hidden by default */
     z-index: 1000; /* Sit on top */
-    position: absolute;
+    position: fixed;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);

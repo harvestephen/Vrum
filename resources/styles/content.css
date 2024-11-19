@@ -89,3 +89,137 @@
 
     
 }
+
+.what-we-offer {
+    background-color: #f4f4f4;
+    padding: 40px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.what-we-offer h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.offer-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.offer {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.offer img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.offer h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.offer p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.faq {
+    margin-top: 40px;
+}
+
+.faq h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.faq ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.faq li {
+    font-size: 0.9rem;
+    margin: 5px 0;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+.featured-vehicles {
+    background-color: #f8f8f8;
+    padding: 40px;
+    text-align: center;
+}
+
+.featured-header h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.vehicle-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.vehicle-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 200px;
+    text-align: left;
+    position: relative;
+}
+
+.vehicle-card h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.vehicle-card p {
+    font-size: 1rem;
+    color: #777;
+}
+
+.more-btn {
+    background-color: #f0c040;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.more-btn:hover {
+    background-color: #d89a30;
+}
+
+.see-all {
+    margin-top: 20px;
+}
+
+.see-all-link {
+    font-size: 1rem;
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.see-all-link:hover {
+    text-decoration: underline;
+}
