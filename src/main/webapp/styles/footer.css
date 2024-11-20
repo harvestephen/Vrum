@@ -1,6 +1,6 @@
 @font-face {
     font-family: Abel-Regular;
-    src:url('../fonts/Abel/Abel-Regular.ttf')format('truetype');
+    src:url('../assets/fonts/Abel/Abel-Regular.ttf')format('truetype');
     font-style: normal;
     font-weight: normal;
 }
@@ -20,7 +20,7 @@
 
 footer {
     background-color: #022B3A;
-    color: #fff;
+    color: #C9C9C9;
     text-align: center;
     padding: 20px 10px;
     font-size: 14px;
@@ -34,13 +34,14 @@ footer {
 
 .footer-links a {
     font-size: 16px;
-    color: #fff;
+    color: #C9C9C9;
     text-decoration: none;
     margin: 0 5px;
 }
 
 .footer-links a:hover {
     text-decoration: underline;
+    color:#1F7A8C;
 }
 
 .footer-bottom {
@@ -66,10 +67,16 @@ footer {
     padding-right: 90px;
 }
 
-.footer-socials a:hover {
-    background-color: black;
+.hover-svg path {
+    transition: fill 0.3s ease;
+    fill: #C9C9C9; /* Default color */
+}
+
+.hover-svg:hover path {
+    fill: #1F7A8C; /* Change color to Instagram pinkish-red on hover */
 }
 
 .footer-socials a {
     display: inline-block;
 }
+
