@@ -43,6 +43,7 @@
 }
 .navContent {
     display: flex;
+    padding-right: 4px;
 }
 div.pageTitle {
     padding-left: 45px;
@@ -83,7 +84,7 @@ button.navSelection{
 }
 button.navSelection:hover {
     background-color: transparent;
-    color: #E1E5F2;
+    color: rgb(128, 128, 128);
 }
 button.scrolled:hover {
     background-color: #1F7A8C;
@@ -134,17 +135,25 @@ button.scrolled:hover {
     font-size: 16px;
     color: #022B3A;
 }
+.input-holder {
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+}
 .formInput{
-    width: 100%;
     display: inline-block;
     color: black;
     padding: 8px 15px;
-    margin: 5px 0;
+    margin: 5px 10px 0 10px;
     border: 1px solid #022B3A;
     border-radius: 15px;
 }
 div.formSubmit{
     padding-top: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 button.formSubmit{
@@ -169,6 +178,10 @@ a.formSubmit{
     font-size: 12px;
     color: #333333;
     padding-right: 10px;
+}
+a.formSubmit:hover{
+    color: #1F7A8C;
+    cursor: pointer;
 }
 
 

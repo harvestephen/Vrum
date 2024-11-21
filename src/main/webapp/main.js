@@ -1,12 +1,12 @@
 	// Log in Modal Script
+	/** 
     var loginModal = document.getElementById("loginModal");
     var loginModalBtn = document.getElementById("loginModalBtn");
 
     loginModalBtn.onclick = function() {
         loginModal.style.display = "flex";
     }
-
-
+	*/
 
     // Sign up Modal script
     var signupModal = document.getElementById("signupModal");

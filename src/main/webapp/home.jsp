@@ -18,8 +18,8 @@
 		<div class="MainContent">
             <div class="homepage">
                 <div class="homepageTitle MainContent">
-                    <h1>Keys Today Memories Tomorrow</h1>
-                    <h1 style="padding-top: 25px; padding-bottom: 25px;">Begin Your Journey!</h1>
+                    <h1 class="banner">Keys Today Memories Tomorrow</h1>
+                    <h1 style="padding-top: 25px; padding-bottom: 25px;" class="banner">Begin Your Journey!</h1>
                  
                     <a href="#more">RENT NOW!</a>
                 </div>
@@ -41,6 +41,11 @@
                     </div>
                     <div class="vehicle-card">
                         <h3>Toyota Vios</h3>
+                        <p>₱ 1,120/Day</p>
+                        <button class="more-btn">More...</button>
+                    </div>
+                    <div class="vehicle-card">
+                        <h3>Toyota Hiace</h3>
                         <p>₱ 1,120/Day</p>
                         <button class="more-btn">More...</button>
                     </div>
@@ -100,7 +105,7 @@
    	<jsp:include page="footer.jsp" />
    
 	</div>
-	<script src="main.js"></script>
+	<script src="./main.js"></script>
 </body>
 
 </html>
